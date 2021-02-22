@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="sf::ILJMUScreenBase">
+    <Position X="14.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAAAABAABAAAAAAAQAAAAAAAAAEAEAAAAAUAAA=</HashCode>
+      <FileName>include\LJMUInterfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LJMU::ILJMUObjectState">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIATAAAAAAAAA=</HashCode>
+      <FileName>include\game\GameInterfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LJMU::LJMUBullet">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAAAAABgAAACIAAAABAAAgABAAAAQAAAAUAAA=</HashCode>
+      <FileName>include\game\GameBullet.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Bullet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LJMU::LJMUCamControls">
+    <Position X="9.25" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAARCEAABAAAAAABAAAAAIAAAAAAAI=</HashCode>
+      <FileName>include\game\GameControls.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LJMU::LJMUEnemy">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgBAAAAABAAAEAAAAADgAQAAAAAAAAQAEAQEAAA=</HashCode>
+      <FileName>include\game\GameEnemy.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="MotionType" />
+      <Field Name="Enemy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LJMU::LJMUGameManager">
+    <Position X="9.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CKAQEAAAAOAAAAAAACAAAEAAAgAAQAAmAoBgAAgEAGg=</HashCode>
+      <FileName>include\game\GameManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CameraControl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LJMU::LJMUGameScreenMain">
+    <Position X="14.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QIAABAChAAAAABQBACAAAAQAABAACAEAAEEAQIAUAAA=</HashCode>
+      <FileName>include\game\GameScreenMain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LJMU::LJMUPlayer">
+    <Position X="4.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAADgAAQCBAAAAhAABAAAACAAAgAQAEAAA=</HashCode>
+      <FileName>include\game\GamePlayer.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Controls" />
+      <Field Name="Player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LJMU::LJMUPlayerControls">
+    <Position X="4.25" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAACARCEAABAAAAAABgAAAAAAAAAAAAI=</HashCode>
+      <FileName>include\game\GameControls.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::ILJMUUpdatable">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>include\LJMUInterfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::LJMUAnimSprite">
+    <Position X="2.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgIAACAgIICAEAAAJgABEIAAKgAgAEEADAYBSMIAA=</HashCode>
+      <FileName>include\LJMUAnimSprite.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_anim_seq" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="sf::Sprite">
+    <Position X="7" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACBEAIAgACAAIAAAAAAAAAACAwAAAAgAIIAAA=</HashCode>
+      <FileName>c:\cgt\cgt-lib\SFML-2.4.2_x64\include\SFML\Graphics\Sprite.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::LJMUAnimSeq">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAEABAAABAAAEAgAAAAAAEAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\LJMUAnimSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::ILJMUSFMLManager">
+    <Position X="18" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAIAACAAAAAAAAAAAAIAAAAAAAAAACAAAA=</HashCode>
+      <FileName>include\LJMUInterfaces.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::LJMUGameBase">
+    <Position X="18" Y="4.75" Width="1.5" />
+    <AssociationLine Name="_wndw" Type="sf::RenderWindow" ManuallyRouted="true">
+      <Path>
+        <Point X="19.5" Y="6.379" />
+        <Point X="20.795" Y="6.379" />
+        <Point X="20.795" Y="4.183" />
+        <Point X="22.75" Y="4.183" />
+        <Point X="22.75" Y="3.516" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QIgABAEAgAAIABCAgKEIAAAAAAAIAIAIAAAIAACUAAA=</HashCode>
+      <FileName>include\LJMUGameBase.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_settings" />
+      <Field Name="_wndw" />
+      <Field Name="_text_fps" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="sf::LJMUSettings">
+    <Position X="21.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAREAAAAgAASFACQyAQgLZAAFEDoGAIAQwSIGIghWQQ=</HashCode>
+      <FileName>include\LJMUSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::RenderWindow">
+    <Position X="21.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBAAAAAAAAAQASAAAAAEAAgAAAAAAAAAAA=</HashCode>
+      <FileName>c:\cgt\cgt-lib\SFML-2.4.2_x64\include\SFML\Graphics\RenderWindow.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Text">
+    <Position X="14.5" Y="10.5" Width="3" />
+    <NestedTypes>
+      <Enum Name="sf::Text::Style" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\cgt\cgt-lib\SFML-2.4.2_x64\include\SFML\Graphics\Text.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAAAAhGJCAIQADABAIAAABEwBUAkgAIAAECiABIQAA=</HashCode>
+      <FileName>c:\cgt\cgt-lib\SFML-2.4.2_x64\include\SFML\Graphics\Text.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="LJMU::LJMUSIFont">
+    <Position X="12" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\game\GameAssets.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LJMU::LJMUSIAssets">
+    <Position X="12" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIAQAAAgAAAAAIAAAAAAAAAAAAAAAEAAEAA=</HashCode>
+      <FileName>include\game\GameAssets.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LJMU::LJMUEnemyMotion">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAgCAA=</HashCode>
+      <FileName>include\game\GameEnums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LJMU::LJMUGamePlayMode">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAAACAAAA=</HashCode>
+      <FileName>include\game\GameEnums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LJMU::LJMUPlayerActions">
+    <Position X="4.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAEAAAAEAAAAAAABAAACAAAAAAEgAAAAAAAAAA=</HashCode>
+      <FileName>include\game\GameControls.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LJMU::LJMUSIColour">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAgAQIAAAAAAAAAAAgAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>include\game\GameEnums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LJMU::LJMUSIHUD">
+    <Position X="12" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\game\GameEnums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LJMU::LJMUCameraActions">
+    <Position X="12" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAIAgQAABAAAAAEAACAAAAAAAAAAAIg=</HashCode>
+      <FileName>include\game\GameControls.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
